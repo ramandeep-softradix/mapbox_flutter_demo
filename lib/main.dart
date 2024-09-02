@@ -9,7 +9,14 @@ import 'core/theme/app_color_palette.dart';
 import 'core/translator/local_translation.dart';
 
 /*
+For Android
 Please add your secure key to the android.properties file and set the ACCESS_TOKEN variable in the CommonConstants file with your public key to run the Android application.
+
+For IOS
+to download the iOS SDK add the token configuration to ~/.netrc :
+  machine api.mapbox.com
+  login mapbox
+  password YOUR_SECRET_MAPBOX_ACCESS_TOKEN
 */
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -27,7 +34,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return screenUtil.ScreenUtilInit(
-        designSize:  const Size(375, 812),
+        designSize: const Size(375, 812),
         minTextAdapt: true,
         splitScreenMode: true,
         builder: (context, child) {
