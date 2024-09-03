@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:map_box_demo/features/map_screen/binding/mapbox_screen_binding.dart';
-import 'package:map_box_demo/features/map_screen/screen/mapbox_screen.dart';
 import '../../core/constants/common_strings.dart';
+import '../../features/map_screen/binding/mapbox_screen_binding.dart';
+import '../../features/map_screen/screen/mapbox_screen.dart';
 
 class Routes {
   Routes._();

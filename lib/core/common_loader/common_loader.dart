@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:map_box_demo/core/theme/app_color_palette.dart';
+
+import '../theme/app_color_palette.dart';
 
 class CommonLoader extends StatelessWidget {
   const CommonLoader({super.key});

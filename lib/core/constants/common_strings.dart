@@ -8,5 +8,5 @@ class CommonStrings {
 }
 
 class CommonConstants {
-  static const String ACCESS_TOKEN = "ADD-YOUR-PUBLIC-KEY";
+  static const String ACCESS_TOKEN = "ADD-YOUR-Public-KEY";
 }

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:map_box_demo/features/map_screen/controller/mapbox_screen_controller.dart';
-import 'package:map_box_demo/features/map_screen/extenstion/mapbox_extenstion.dart';
+import 'package:max_box_demo/features/map_screen/extenstion/mapbox_extenstion.dart';
+
+import '../controller/mapbox_screen_controller.dart';
 
 class MapBoxScreen extends GetView<MapBoxScreenController> {
   const MapBoxScreen({super.key});

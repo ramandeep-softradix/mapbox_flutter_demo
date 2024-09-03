@@ -5,8 +5,8 @@ import 'package:get/get.dart';
 import 'package:mapbox_maps_flutter/mapbox_maps_flutter.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:geolocator/geolocator.dart' as geoLocator;
-import 'package:map_box_demo/core/constants/app_strings.dart';
 import '../../../core/common_ui/common_dialog.dart';
+import '../../../core/constants/app_strings.dart';
 
 class MapBoxScreenController extends GetxController {
   /// The instance of the Mapbox map.
@@ -88,7 +88,7 @@ class MapBoxScreenController extends GetxController {
                 coordinates: Position(
               longitude,
               latitude,
-            )).toJson(),
+            )),
             zoom: zoom,
             bearing: -17.6,
             pitch: 50),

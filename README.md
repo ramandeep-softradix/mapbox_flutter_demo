@@ -1,4 +1,4 @@
-# map_box_demo
+# max_box_demo
 
 A new Flutter project.
 

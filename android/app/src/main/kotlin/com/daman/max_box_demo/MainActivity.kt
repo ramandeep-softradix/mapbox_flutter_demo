@@ -1,4 +1,4 @@
-package com.daman.map_box_demo
+package com.daman.max_box_demo
 
 import io.flutter.embedding.android.FlutterActivity
 
