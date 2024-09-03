@@ -4,13 +4,12 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To configure the project for Android, please complete the following setups.
+1. Please add your secure key to the android.properties file.
+2. Set the ACCESS_TOKEN variable in the CommonConstants file with your public key to run the Android application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To configure the project for IOS, please complete the following setups.
+1. Create a file with the .netrc extension in the home directory.
+2. machine api.mapbox.com
+  login mapbox
+  password YOUR_SECRET_MAPBOX_ACCESS_TOKEN
