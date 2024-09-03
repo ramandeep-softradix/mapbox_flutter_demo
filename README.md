@@ -1,7 +1,3 @@
-# max_box_demo
-
-A new Flutter project.
-
 ## Getting Started
 
 To configure the project for Android, please complete the following setups.
